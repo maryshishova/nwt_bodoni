@@ -3,9 +3,8 @@
 }
 
 i {
-  font-family: ;
-    font-style: italic !important;
-    font-family: "NWT Bodoni";
+  font-style: italic !important;
+  font-family: "NWT Bodoni";
 }
 
 body {
@@ -698,4 +697,3 @@ h2 {
   font-weight: 400;
   line-height: 130%;
 }
-
