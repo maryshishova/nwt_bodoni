@@ -22,22 +22,83 @@ body {
 }
 
 .main_screen {
-  display: flex;
-  justify-content: center;
-  margin-top: 80px;
+  padding-top: 80px;
+  width: 1296px;
   margin: 0 auto;
-  position: relative;
-  width: 100%;
 }
 
-.main_img {
-  padding-top: 80px;
-  width: 1296 px;
+.main {
+  position: absolute;
+  font-family: "NWT Bodoni";
+  font-weight: bold;
+}
+
+.text1 {
+  top: 91px;
+  left: 958px;
+  font-size: 130px;
+  color: #abcfef;
+  transform: rotate(10deg);
+}
+
+.text2 {
+  top: 310px;
+  left: 25px;
+  font-size: 650px;
+  color: #f9f4a0;
+}
+
+.text3 {
+  top: 880px;
+  left: 39px;
+  font-size: 250px;
+  color: #abcfef;
+}
+
+.text4 {
+  top: 880px;
+  left: 543px;
+  font-size: 250px;
+  color: #f9f4a0;
+}
+
+.text5 {
+  top: 1132px;
+  left: 40px;
+  font-size: 250px;
+  color: #f9f4a0;
+}
+
+.text6 {
+  top: 1689px;
+  left: 1075px;
+  font-size: 80px;
+  color: #abcfef;
+  transform: rotate(30deg);
+}
+
+.text7 {
+  top: 1734px;
+  left: 436px;
+  font-size: 250px;
+  color: #f9f4a0;
+}
+
+.main-block {
+  border: 5px solid #1d86ef;
+  position: relative;
+  width: 100%;
+  max-width: 2125px;
+  height: 2000px;
+  background-image: url("../images/bg-screen.svg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 }
 
 h1 {
   position: absolute;
-  top: 160px;
+  top: 60px;
   font-size: 250px;
   color: #1d86ef;
   text-align: center;
